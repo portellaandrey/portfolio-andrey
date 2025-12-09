@@ -482,7 +482,11 @@ section { width: 100%; }
 .menu-link:focus { outline: 3px solid rgba(77,175,255,0.12); outline-offset: 4px; border-radius: 6px; }
 
 .footer {
+<<<<<<< HEAD
   background: linear-gradient(180deg, rgba(10,12,20,0.55), rgba(10,12,20,0.25));
+=======
+  background: #0d0d0d;
+>>>>>>> af7262357be1faa1495c2113d9bb187e6d6f9b9d
   color: #cccccc;
   text-align: center;
   padding: 20px 0;
