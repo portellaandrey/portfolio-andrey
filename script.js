@@ -7,27 +7,15 @@ document.addEventListener('DOMContentLoaded', function() {
         event.preventDefault();
         
         const nome = formulario.querySelector('input[name="nome"]').value.trim();
-<<<<<<< HEAD
         const mensagem = formulario.querySelector('textarea[name="mensagem"]').value.trim();
         
-        if (!nome | !mensagem) {
-=======
-        const telefone = formulario.querySelector('input[name="telefone"]').value.trim();
-        const mensagem = formulario.querySelector('textarea[name="mensagem"]').value.trim();
-        
-        if (!nome || !telefone || !mensagem) {
->>>>>>> af7262357be1faa1495c2113d9bb187e6d6f9b9d
+        if (!nome || !mensagem) {
             alert('Por favor, preencha todos os campos do formulário.');
             return;
         }
         
         const textoMensagem = encodeURIComponent(
-<<<<<<< HEAD
-            `Olá Andrey, meu nome é ${nome}\n\n` +
-=======
-            `Olá Andrey, meu nome é ${nome} e gostaria de entrar em contato.\n\n` +
-            `Meu telefone: ${telefone}\n\n` +
->>>>>>> af7262357be1faa1495c2113d9bb187e6d6f9b9d
+            `Olá Andrey, meu nome é ${nome}.\n\n` +
             `Mensagem:\n${mensagem}`
         );
         
